@@ -17,9 +17,13 @@ ul, ol, li {
   margin: 0 auto;
 }
 
+body {
+  border: none;
+}
+
 #header {
   background: #1E2024;
-  padding: 10px;
+  padding: 10px 0;
 }
 #header .header {
   display: flex;
@@ -70,9 +74,10 @@ ul, ol, li {
   color: white;
 }
 #header .header__btn button:hover {
-=======
-body {
-  border: none;
+  transition: 0.7s;
+  transform: translateY(-10px);
+  background: none;
+  border: 1px solid white;
 }
 
 #africa {
@@ -82,8 +87,7 @@ body {
 #africa .africa {
   display: flex;
   align-items: center;
-  margin-left: 70%;
-  padding-top: 4%;
+  justify-content: space-between;
 }
 #africa .africa h1 {
   font-style: normal;
