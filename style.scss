@@ -1,6 +1,10 @@
 @import "reset";
 @import "mixins";
 @import "variables";
+
+#header {
+  background: #1E2024;
+  padding: 10px;
 body {
   border: none;
 }
@@ -8,8 +12,71 @@ body {
 
   .header{
 
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+
+    &__logo {
+      display: flex;
+      line-height: 12px;
+
+      & p {
+        font-weight: 400;
+        font-size: 8px;
+        color: #FFFFFF;
+      }
+
+    }
+
+    &__course {
+      display: flex;
+      align-items: center;
+      padding: 0 100px;
+
+      & p {
+        font-weight: 500;
+        font-size: 14px;
+        color: #9099A3;
+        margin: 0 20px;
+      }
+    }
+
+    &__select {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 180px;
+
+      & select {
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background: darkgrey;
+        color: blue;
+      }
+    }
+    &__btn{
+     button {
+       width: 100px;
+       height: 40px;
+       background: #1A5CFF;
+       box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+       border-radius: 15px;
+       transition: .7s;
+       color: white;
+     }
+      button:hover {
+        transition: .7s;
+        transform: translateY(-10px);
+        background: none;
+        border: 1px solid white;
+      }
+    }
   }
 }
+
 
 
 
