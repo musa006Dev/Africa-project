@@ -19,6 +19,8 @@ ul, ol, li {
 
 body {
   border: none;
+  outline: none;
+=======
 }
 
 #header {
@@ -456,6 +458,135 @@ body {
   transform: translateY(-10px);
   background: none;
   border: 1px solid white;
+}
+
+#program {
+  padding: 100px 0;
+  background: #1d273d;
+}
+#program .program details {
+  width: 800px;
+  outline: none;
+  color: black;
+  border: 2px solid #9099A3;
+  border-radius: 15px;
+  margin: 35px;
+  padding: 8px;
+}
+#program .program details summary {
+  border: none;
+  display: flex;
+  width: 800px;
+  outline: none;
+  list-style: none;
+}
+#program .program details summary .program--btn {
+  padding: 7px 19px;
+  border-radius: 10px;
+  background: #003fcc;
+  color: white;
+  font-size: 13px;
+  max-height: 15px;
+  margin: 7px 20px;
+}
+#program .program details summary .program--text {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+#program .program details summary .program--text span {
+  width: 80px;
+  height: 20px;
+  background: #9099A3;
+  border-radius: 5px;
+}
+#program .program details p {
+  margin: 15px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+#program .program__button button {
+  width: 240px;
+  height: 40px;
+  color: white;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+}
+
+#exclusive {
+  background: #1d273d;
+}
+#exclusive .exclusive {
+  display: flex;
+  align-items: center;
+}
+#exclusive .exclusive .exclusive__one {
+  margin: 0 40px;
+}
+#exclusive .exclusive .exclusive__one .exclusive__one--fon {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  left: 80px;
+  top: 3682px;
+  background: #1A5CFF;
+  border-radius: 10px;
+}
+#exclusive .exclusive .exclusive__one .exclusive__one--fon hr {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 17px;
+  border: 2px solid #FFFFFF;
+  border-radius: 3px;
+}
+#exclusive .exclusive .exclusive__one .exclusive__one--fon a {
+  margin-left: -31px;
+}
+#exclusive .exclusive .exclusive__one h4 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  margin: 10px 0;
+  color: #FFFFFF;
+}
+#exclusive .exclusive .exclusive__one p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+#exclusive .exclusive__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#exclusive .exclusive__bottom h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+#exclusive .exclusive__bottom .exclusive__bottom--one {
+  padding: 100px 0;
+}
+#exclusive .exclusive__bottom .exclusive__bottom--one a {
+  display: flex;
+  margin: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
